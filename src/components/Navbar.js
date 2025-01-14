@@ -8,13 +8,13 @@ function Navbar(props) {
 
   return (
     <div className='flex flex-wrap justify-around bg-[#152561] text-xl pt-3 pb-3 text-white'>
-          <Link to = "/">
+          <Link to = "/" className='pb-3'>
                <img src= {logo} alt='Logo' width={160} height={32} loading='lazy' />
           </Link>
 
           <nav>
               
-              <ul className='flex gap-x-6'>
+              <ul className='flex gap-x-6 pb-3'>
                  <li className='hover:text-[#38BDF8] ml-3 ' >
                    <Link to = "/" > Home</Link>
                  </li>
